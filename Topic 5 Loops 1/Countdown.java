@@ -5,7 +5,7 @@ public class Countdown
     {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        for (int i = x ; i >= 0 ; i--)
+        for (int i = x; i>0; i--)
         {
             System.out.println(i);
         }    
