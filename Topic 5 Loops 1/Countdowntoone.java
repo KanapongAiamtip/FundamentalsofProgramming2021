@@ -5,7 +5,7 @@ public class Countdowntoone
     {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        for (int i = x ; i >= 0 ; i--)
+        for (int i = x; i>0; i--)
         {
             if (i > 3 )
             {
